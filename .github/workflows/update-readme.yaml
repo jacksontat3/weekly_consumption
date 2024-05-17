@@ -12,24 +12,15 @@ jobs:
     steps:
       - name: Find and update README
         run: |
-          TODAY=$(date +%u)
-          if [ $TODAY -eq 1 ]; then
-            RECENT_MONDAY=$(date +%m%d%y)
-          else
-            RECENT_MONDAY=$(date -d "last monday" +%m%d%y)
-          fi
-          FILE_TO_FIND=$RECENT_MONDAY.md
-          if [ ! -f "$FILE_TO_FIND" ]; then
-            FILE_TO_FIND=$(date -d "last month -$(date -d 'last monday' +%d) days" +%m%d%y).md
-          fi
-          if [ -f "$FILE_TO_FIND" ]; then
-            echo "## Content from $FILE_TO_FIND" >> README.md
-            cat "$FILE_TO_FIND" >> README.md
+          MOST_RECENT_FILE=$(ls -t consumed | head -n1)
+          if [ -f "consumed/$MOST_RECENT_FILE" ]; then
+            echo "## Content from $MOST_RECENT_FILE" >> README.md
+            cat "consumed/$MOST_RECENT_FILE" >> README.md
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "Update README with content from $FILE_TO_FIND"
+            git commit -m "Update README with content from $MOST_RECENT_FILE"
             git push
           else
-            echo "No file matching the pattern found."
+            echo "No file found in the consumed folder."
           fi
