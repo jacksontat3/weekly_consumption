@@ -2,7 +2,7 @@ name: Update README with Recent File
 on:
   push:
     branches:
-      - master
+      - main # Change this to your main branch name if different
 
 jobs:
   update-readme:
@@ -19,15 +19,3 @@ jobs:
 
           # Append recent file to README.md
           echo "Recent file: $recent_file" >> README.md
-
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update README with recent file" || echo "No changes to commit"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.CONSUMPTION_SECRET }}
