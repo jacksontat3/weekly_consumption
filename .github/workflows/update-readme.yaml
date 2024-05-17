@@ -2,7 +2,7 @@ name: Update README with Recent File
 on:
   push:
     branches:
-      - master # Change this to your main branch name if different
+      - master
 
 jobs:
   update-readme:
@@ -28,4 +28,6 @@ jobs:
           git commit -m "Update README with recent file" || echo "No changes to commit"
 
       - name: Push changes
-        run: git push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.CONSUMPTION_TOKEN }}
