@@ -1,0 +1,7 @@
+# Ignore files at the root of the project that start with '.' or contain '~'
+/.*     # Ignore files starting with '.'
+*~      # Ignore files ending with '~'
+
+# Allow .git and .gitignore
+!.git
+!.gitignore
