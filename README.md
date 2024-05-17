@@ -1,7 +1,7 @@
 # Weekly Consumption
 
 Currently:
-Recent file: 051324.md
+
 # May 13, 2024 - May 19, 2024
 
 ## May 15
