@@ -16,16 +16,18 @@ jobs:
           recent_file=$(ls -t consumed | head -n1)
           echo "Recent file: $recent_file"
 
-          echo "Recent file: $recent_file" >> README.md
+          recent_file_content=$(cat "consumed/$recent_file")
+
+          echo "$recent_file_content" >> README.md
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Update README with recent file" || echo "No changes to commit"
+          git commit -m "Update README with recent file content" || echo "No changes to commit"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.CONSUMPTION_SECRET }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
