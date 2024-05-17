@@ -13,16 +13,16 @@ jobs:
 
       - name: Find most recent file
         run: |
+          # Replace `consumed` with your directory name
           recent_file=$(ls -t consumed | head -n1)
           echo "Recent file: $recent_file"
 
+          # Read the contents of the recent file
           recent_file_content=$(cat "consumed/$recent_file")
 
-          echo "$recent_file_content" >> readme-default.md
-
-      - name: Merge contents into README.md
-        run: |
-          cat readme-default.md >> README.md
+          # Copy the content of readme-default.md and recent file to README.md
+          cat readme-default.md > README.md
+          echo "$recent_file_content" >> README.md
 
       - name: Commit changes
         run: |
@@ -34,4 +34,4 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.CONSUMPTION_SECRET }}
