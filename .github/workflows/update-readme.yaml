@@ -22,7 +22,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "jacksondtate@gmail.com"
           git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "Update README with recent file" || echo "No changes to commit"
@@ -30,4 +30,4 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.consumption_secret }}
+          github_token: ${{ secrets.CONSUMPTION_SECRET }}
