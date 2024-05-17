@@ -1,3 +1,1 @@
 # Weekly Consumption
-
-Currently:
