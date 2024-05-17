@@ -13,11 +13,9 @@ jobs:
 
       - name: Find most recent file
         run: |
-          # Replace `consumed` with your directory name
           recent_file=$(ls -t consumed | head -n1)
           echo "Recent file: $recent_file"
 
-          # Append recent file to README.md
           echo "Recent file: $recent_file" >> README.md
 
       - name: Commit changes
