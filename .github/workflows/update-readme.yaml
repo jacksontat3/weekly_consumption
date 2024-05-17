@@ -14,7 +14,7 @@ jobs:
       - name: Find most recent file
         run: |
           recent_file=$(ls -t consumed | head -n1)
-          echo "Recent file: $recent_file"
+          echo "$recent_file"
 
           recent_file_content=$(cat "consumed/$recent_file")
 
