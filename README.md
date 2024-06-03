@@ -1,38 +1,37 @@
 # Weekly Consumption
-## May 13, 2024 - May 19, 2024
+## May 27, 2024 - June 2, 2024
 
-### May 15
+### May 27
 
-- **Rage Against the Machine** - Rage Against the Machine
-- **Radical Optimism** - Dua Lipa
-- **Clean** - Soccer Mommy
-- **Untrue** - Burial
-- **When I Get Home** - Solange
-- **X-men '97**(ep1-2) - Jake Costorena
-- **v60** - Prelude Indonesian
+- **Songs in the Key of Life** - Stevie Wonder
+- **Rid of Me** - PJ Harvey
+- **X-Men '97**(e9) - Jake Costorena
 
-### May 16
+### May 28
 
-- **One For The Heart** - Francis Ford Coppola
-- **CrazySexyCool** - TLC
-- **Atavista** - Childish Gambino
-- **I Put a Spell on You** - Nina Simone
-- **Supa Dupa Fly** - Missy Elliot
-- **The Eye of the World** (finished) - Robert Jordan
-- **v60** - Sincerely Ethopian
-- **Aeropress** - Sincerely Ethopian
-
-### May 17
-
-- **v60** - Sincerely Ethopian
-- **FanMail** - TLC
-- **How to Leave Town** - Car Seat Headrest
-- **White Pony** - Deftones
-- **Disintegration** - The Cure
+- **Accelerator Deluxe** - The Future Sounds of London
+- **Selected Ambient Works 85-92** - Aphex Twin
+- **In the Court of the Crimson King (Expanded Edition)** - King Crimson
+- **X-Men '97** (e10) - Jake Costorena
 - **The Great Hunt** - Robert Jordan
 
-### May 18
+### May 29
 
-- **v60** - Sincerely Ethopian
-- **Fallout** (ep2-6) - Various Directors
+- **In the Court of the Crimson King** - King Crimson
 - **The Great Hunt** - Robert Jordan
+
+### May 30
+
+- **Wish You Were Here** - Pink Floyd
+- **Close to the Edge** - Yes
+- **Endtroducing.....** - DJ Shadow
+- **Since I Left You** - The Avalanches
+- **Selling England By the Pound** - Genesis
+- **The Great Hunt** (finished) - Robert Jordan
+
+### May 31
+
+- **Heaven know** - Pink Panthress
+- **Carrie & Lowell** - Sufjan Stevens
+- **Javelin** - Sufjan Stevens
+- **Donuts** - J Dilla
