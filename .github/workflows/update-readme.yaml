@@ -14,9 +14,9 @@ jobs:
 
       - name: Find most recent file
         run: |
-          # Ensure the 'consumed' directory exists and list files
+          # Ensure the 'consumed' directory exists and find the most recently modified file
           if [ -d "consumed" ]; then
-            recent_file=$(ls -t consumed | head -n1)
+            recent_file=$(find consumed -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -d' ' -f2)
             echo "Recent file: $recent_file"
             echo "recent_file=$recent_file" >> $GITHUB_ENV
           else
@@ -27,12 +27,12 @@ jobs:
       - name: Read and append the most recent file content to README.md
         run: |
           recent_file=${{ env.recent_file }}
-          if [ -f "consumed/$recent_file" ]; then
-            recent_file_content=$(cat "consumed/$recent_file")
+          if [ -f "$recent_file" ]; then
+            recent_file_content=$(cat "$recent_file")
             cat readme-default.md > README.md
             echo "$recent_file_content" >> README.md
           else
-            echo "File 'consumed/$recent_file' does not exist."
+            echo "File '$recent_file' does not exist."
             exit 1
           fi
 
