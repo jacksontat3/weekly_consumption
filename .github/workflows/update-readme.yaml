@@ -1,4 +1,5 @@
 name: Update README with Recent File
+
 on:
   push:
     branches:
@@ -12,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Find most recent file
-       run: |
+        run: |
           # Ensure the 'consumed' directory exists and list files
           if [ -d "consumed" ]; then
             recent_file=$(ls -t consumed | head -n1)
@@ -20,6 +21,18 @@ jobs:
             echo "recent_file=$recent_file" >> $GITHUB_ENV
           else
             echo "Directory 'consumed' does not exist."
+            exit 1
+          fi
+
+      - name: Read and append the most recent file content to README.md
+        run: |
+          recent_file=${{ env.recent_file }}
+          if [ -f "consumed/$recent_file" ]; then
+            recent_file_content=$(cat "consumed/$recent_file")
+            cat readme-default.md > README.md
+            echo "$recent_file_content" >> README.md
+          else
+            echo "File 'consumed/$recent_file' does not exist."
             exit 1
           fi
 
