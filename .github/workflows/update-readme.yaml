@@ -12,17 +12,16 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Find most recent file
-        run: |
-          # Replace `consumed` with your directory name
-          recent_file=$(ls -t consumed | head -n1)
-          echo "Recent file: $recent_file"
-
-          # Read the contents of the recent file
-          recent_file_content=$(cat "consumed/$recent_file")
-
-          # Copy the content of readme-default.md and recent file to README.md
-          cat readme-default.md > README.md
-          echo "$recent_file_content" >> README.md
+       run: |
+          # Ensure the 'consumed' directory exists and list files
+          if [ -d "consumed" ]; then
+            recent_file=$(ls -t consumed | head -n1)
+            echo "Recent file: $recent_file"
+            echo "recent_file=$recent_file" >> $GITHUB_ENV
+          else
+            echo "Directory 'consumed' does not exist."
+            exit 1
+          fi
 
       - name: Commit changes
         run: |
