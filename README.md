@@ -1,37 +1,38 @@
 # Weekly Consumption
-## May 27, 2024 - June 2, 2024
+## June 3, 2024 - June 9, 2024
 
-### May 27
+### June 3
+- **The Glow, Pt. 2** - The Microphones
+- **Richard D. James Album** - Aphex Twin
+- **Hyperview** - Title Fight
+- **The Dragon Reborn** - Robert Jordan
 
-- **Songs in the Key of Life** - Stevie Wonder
-- **Rid of Me** - PJ Harvey
-- **X-Men '97**(e9) - Jake Costorena
+### June 4
+- **Dark Times** - Vince Staples
+- **Third Eye Blind** - Thrid Eye Blind
+- **Big Fish Theory** - Vince Staples
+- **The Dragon Reborn** - Robert Jordan
 
-### May 28
+### June 5
+- **velocity : design : comfort.** - Sweet Trip
+- **There is a Place I Can Rest** - Cursetheknife
+- **Space 1.8** - Nala Sinephro
+- **The Dragon Reborn** - Robert Jordan
 
-- **Accelerator Deluxe** - The Future Sounds of London
-- **Selected Ambient Works 85-92** - Aphex Twin
-- **In the Court of the Crimson King (Expanded Edition)** - King Crimson
-- **X-Men '97** (e10) - Jake Costorena
-- **The Great Hunt** - Robert Jordan
+### June 6
+- **You Will Never Know Why** - Sweet Trip
+- **The Dragon Reborn** - Robert Jordan
 
-### May 29
+### June 7
+- **BRAT** - Charli XCX
+- **The Dragon Reborn** - Robert Jordan
+- **In a Voilent Nature** - Chris Nash
 
-- **In the Court of the Crimson King** - King Crimson
-- **The Great Hunt** - Robert Jordan
+### June 8
+- **Hitman** - Richard Linklater
+- **The Dragon Reborn** - Robert Jordan
+- **You Will Never Know Why** - Sweet Trip
 
-### May 30
-
-- **Wish You Were Here** - Pink Floyd
-- **Close to the Edge** - Yes
-- **Endtroducing.....** - DJ Shadow
-- **Since I Left You** - The Avalanches
-- **Selling England By the Pound** - Genesis
-- **The Great Hunt** (finished) - Robert Jordan
-
-### May 31
-
-- **Heaven know** - Pink Panthress
-- **Carrie & Lowell** - Sufjan Stevens
-- **Javelin** - Sufjan Stevens
-- **Donuts** - J Dilla
+### June 9
+- **TIMELESS** - KAYTRANADA
+- **The Dragon Reborn** - Robert Jordan
