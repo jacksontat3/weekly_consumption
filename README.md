@@ -1,32 +1,24 @@
 # Weekly Consumption
-## June 10, 2024 - June 16, 2024
+ ## June 17, 2024 - June 23, 2024
 
-### June 10(M)
-- **Black & Whites** - Big Hit, Hit-Boy, The Alchemist
-- **The Dragon Reborn** - Robert Jordan
-- **Settle** - Disclosure
-- **Pinata** - Freddie Gibbs
+### June 17 (M)
+- **Savoir Adore** - Savoir Adore
+- **Immunity** - Clairo
+- **Pinball** - MIKE
+- **Severance** (s1e7-9) - Ben Stiller
 
-### June 11(T)
-- **Sound of Silver** - LCD Soundsystem
-- **Brat and it's the same but there's three more songs so it's not** - Charli XCX
+### June 18(T)
+- **#RICHAXXHATIAN** - Mach-Hommy
+- **Pray for Haiti** - Mach-Hommy
+- **The Boys** (s4e3) - Frederic E.O. Toye
+- **Shogun** (s1e1) - Jonathan van Telleken
 
-### June 12(W)
-- **Demon Days** - Gorillaz
-- **The Dragon Reborn** - Robert Jordan
+### June 19(W)
+- **Ren Faire** - Lance Oppenheim
+- **Pop Out** - Ken and Friends
 
-### June 13(TH)
-- **Exmilitary** - Deathgrips
-- **The Dragon Reborn** (Finished) - Robert Jordan
-- **The Boys** (s4e1)
+### June 20(Th)
+- **Scaring the Hoes** - JPEGMAFIA & Danny Brown
 
-### June 14(F)
-- **Why Lawd?** - NxWorries
-- **Severance** (s1e1-3) - Ben Stiller
-
-### June 15(S)
-- **Severance** (s1e4-5) - Ben Stiller
-- **The Shadow Rising** - Robert Jordan
-
-### June 16(SU)
-- **The Shadow Rising** - Robert Jordan
+### June 21(F)
+- **Inside Out 2** - Kelsey Mann
