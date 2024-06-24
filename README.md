@@ -1,38 +1,32 @@
 # Weekly Consumption
-## June 3, 2024 - June 9, 2024
+## June 10, 2024 - June 16, 2024
 
-### June 3
-- **The Glow, Pt. 2** - The Microphones
-- **Richard D. James Album** - Aphex Twin
-- **Hyperview** - Title Fight
+### June 10(M)
+- **Black & Whites** - Big Hit, Hit-Boy, The Alchemist
+- **The Dragon Reborn** - Robert Jordan
+- **Settle** - Disclosure
+- **Pinata** - Freddie Gibbs
+
+### June 11(T)
+- **Sound of Silver** - LCD Soundsystem
+- **Brat and it's the same but there's three more songs so it's not** - Charli XCX
+
+### June 12(W)
+- **Demon Days** - Gorillaz
 - **The Dragon Reborn** - Robert Jordan
 
-### June 4
-- **Dark Times** - Vince Staples
-- **Third Eye Blind** - Thrid Eye Blind
-- **Big Fish Theory** - Vince Staples
-- **The Dragon Reborn** - Robert Jordan
+### June 13(TH)
+- **Exmilitary** - Deathgrips
+- **The Dragon Reborn** (Finished) - Robert Jordan
+- **The Boys** (s4e1)
 
-### June 5
-- **velocity : design : comfort.** - Sweet Trip
-- **There is a Place I Can Rest** - Cursetheknife
-- **Space 1.8** - Nala Sinephro
-- **The Dragon Reborn** - Robert Jordan
+### June 14(F)
+- **Why Lawd?** - NxWorries
+- **Severance** (s1e1-3) - Ben Stiller
 
-### June 6
-- **You Will Never Know Why** - Sweet Trip
-- **The Dragon Reborn** - Robert Jordan
+### June 15(S)
+- **Severance** (s1e4-5) - Ben Stiller
+- **The Shadow Rising** - Robert Jordan
 
-### June 7
-- **BRAT** - Charli XCX
-- **The Dragon Reborn** - Robert Jordan
-- **In a Voilent Nature** - Chris Nash
-
-### June 8
-- **Hitman** - Richard Linklater
-- **The Dragon Reborn** - Robert Jordan
-- **You Will Never Know Why** - Sweet Trip
-
-### June 9
-- **TIMELESS** - KAYTRANADA
-- **The Dragon Reborn** - Robert Jordan
+### June 16(SU)
+- **The Shadow Rising** - Robert Jordan
